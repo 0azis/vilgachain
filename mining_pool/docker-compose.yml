@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  store:
+    image: nouchka/sqlite3:latest
+    # volumes:
+    #   - "./init.sql:/docker-entrypoint-initdb.d/init.sql"

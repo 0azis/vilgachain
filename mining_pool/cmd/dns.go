@@ -1,6 +1,6 @@
 package main
 
-import "vilgachain/dns/internal"
+import "vilgachain/mining_pool/internal"
 
 func main() {
     internal.InitServer()

@@ -1,6 +1,5 @@
 package pkg
 
-
 func CutIPAddress(ipAddr string) string {
 	var result []byte
 	for x := range ipAddr {

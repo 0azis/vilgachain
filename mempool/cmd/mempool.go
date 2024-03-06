@@ -1,7 +1,7 @@
 package main
 
-import "vilgachain/mempool/internal"
+import "vilgachain/mempool"
 
 func main() {
-	internal.InitMempool()
+	mempool.InitMempool()
 }
